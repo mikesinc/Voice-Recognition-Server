@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "nodemon server.js"
   },
   "license": "ISC",
   "dependencies": {
@@ -14,6 +14,7 @@
     "express": "^4.17.1",
     "express-rate-limit": "^3.5.3",
     "express-secure-only": "^0.2.1",
+    "nodemon": "^1.19.1",
     "vcap_services": "^0.7.1",
     "watson-developer-cloud": "^3.18.4"
   }
