@@ -1,0 +1,6 @@
+applications:
+- domain: mybluemix.net
+  host: Voice-Recognition-Server
+  name: my-voice-app
+domain: mybluemix.net
+host: Voice-Recognition-Server
